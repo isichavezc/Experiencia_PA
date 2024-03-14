@@ -10,4 +10,3 @@ def adivinar_par_o_impar():
         print("Adivinaste! Felicitaciones!")
         return("")
     print("Fallaste, ;(")    
-adivinar_par_o_impar()
