@@ -20,6 +20,7 @@ def juego_del_dado():
         numero_comp = numero = random.randint(1, 6)
         puntuacion_comp = puntuacion_comp + numero_comp
         print("Tu puntuación es:", str(puntuacion))
+        print("La puntuacion de la computadora es:",puntuacion_comp)
 
         if puntuacion >= 30 and puntuacion_comp >= 30: 
             print("EMPATE")
