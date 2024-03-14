@@ -1,10 +1,10 @@
 import random
 def cachipun():
-    print("Bienvenido al juego de la selva. Cazador(1) mata a escopeta(2), escopeta(2) mata a tigre(3) y tigre(3) mata a cazador(1).")
+    print("Bienvenido al juego de la selva. Cazador(1) mata a Escopeta(2), Escopeta(2) mata a Tigre(3) y Tigre(3) mata a Cazador(1).")
     print("1. Cazador")
     print("2. Escopeta")
     print("3. Tigre")
-    jugador = input("Elige un numero del 1 al 3")
+    jugador = int(input("Elige un numero del 1 al 3 "))
     if jugador == 1:
         print("Has elegido Cazador")
     elif jugador == 2:
