@@ -19,7 +19,7 @@ def juego_del_dado():
         puntuacion = puntuacion + numero
         numero_comp = numero = random.randint(1, 6)
         puntuacion_comp = puntuacion_comp + numero_comp
-        print("Tu puntuación es:" + puntuacion)
+        print("Tu puntuación es:", str(puntuacion))
 
         if puntuacion >= 30 and puntuacion_comp >= 30: 
             print("EMPATE")
@@ -34,5 +34,5 @@ def juego_del_dado():
 
     pass
 
-print("BIENVENID@")
-juego_del_dado()
+#print("BIENVENID@")
+#juego_del_dado()
