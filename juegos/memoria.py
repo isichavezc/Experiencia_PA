@@ -9,7 +9,9 @@ def memoria():
     print("Hola!, acabas de entrar al juego de memoria mas increible del mundo!!!")
     print("Te mostraremos una secuencia de 7 numeros y debes memorizarla, luego te pediremos que nos des la secuencia.")
     n = random.randint(1000000,9999999)
+    print("El numero que debes memorizar es: ",n)
     a = input("Estas listo? (1. si ; 2. no) ")
+    
     if a == 1:
         print("Vamos!")
     else:
